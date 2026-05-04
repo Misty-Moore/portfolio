@@ -42,7 +42,8 @@ export default function WorkPage() {
                     <CompanyLogo
                       domain={job.logoDomain}
                       company={job.company}
-                      logoUrl={job.logoUrl}
+                      slug={job.slug}
+                      // logoUrl={job.logoUrl}
                       className="mt-0.5"
                     />
                     <div className="min-w-0 flex-1">
