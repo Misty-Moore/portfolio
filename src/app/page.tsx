@@ -27,18 +27,10 @@ export default function Home() {
       {/* selfie - template: text-center, H1 text-3xl sm:text-4xl, paragraphs gray-600 max-w-3xl */}
       <AnimateSection delay={0}>
       <section className={`${SECTION_CLASS} mx-auto w-fit rounded-2xl bg-white p-3 shadow-lg ring-1 ring-gray-200 hover:shadow-2xl transition duration-300"`}>
-        <img src="/Selfie.jpg"
+        <img src="/Selfie.png"
           alt="Misty Moore"
           className="block mx-auto h-40 w-40 rounded-xl object-cover"
         />
-        {/* <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4 text-gray-900 dark:text-white hero-title">
-          {hero.title}
-        </h1>
-        <div className="max-w-3xl mx-auto space-y-4 text-base sm:text-lg dark:text-white leading-relaxed text-left text-justify">
-          {hero.paragraphs.map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
-        </div> */}
       </section>
       </AnimateSection>
 
@@ -125,7 +117,7 @@ export default function Home() {
               <CompanyLogo
                 domain={job.logoDomain}
                 company={job.company}
-                logoUrl={"logoUrl" in job && typeof job.logoUrl === "string" ? job.logoUrl : undefined}
+                slug={job.slug}
                 className="mt-0.5"
               />
               <div className="min-w-0 flex-1">

@@ -4,32 +4,20 @@ import { useState } from "react";
 
 const LOGO_SIZE = 25; // template: 25x25
 
-type Props = { domain: string; company: string; logoUrl?: string; className?: string };
+type Props = { domain: string; company: string; slug?: string; className?: string };
 
-export default function CompanyLogo({ domain, company, logoUrl, className = "" }: Props) {
+export default function CompanyLogo({ domain, company, slug, className = "" }: Props) {
   const [error, setError] = useState(false);
-  const src = logoUrl ?? `https://logo.clearbit.com/${domain}`;
+  const src = `/logo/${slug}.svg`;
 
-  // if (error) {
-    return (
-      <div
-        className={`flex shrink-0 items-center justify-center rounded-full bg-[var(--card-hover)] text-lg font-semibold text-[var(--muted-foreground)] ${className}`}
-        style={{ width: LOGO_SIZE, height: LOGO_SIZE }}
-      >
-        {company.charAt(0)}
-      </div>
-    );
-  // }
-
-  /* Native img so browser loads directly; avoids Next/Image server fetch (timeout/DNS) */
-  // return (
-  //   <img
-  //     src={src}
-  //     alt={`${company} logo`}
-  //     width={LOGO_SIZE}
-  //     height={LOGO_SIZE}
-  //     className={`shrink-0 rounded-full object-contain image-brightness-hover ${className}`}
-  //     onError={() => setError(true)}
-  //   />
-  // );
+  return (
+    <img
+      src={src}
+      alt={`${company} logo`}
+      width={LOGO_SIZE}
+      height={LOGO_SIZE}
+      className={`shrink-0 rounded-full object-contain image-brightness-hover ${className}`}
+      onError={() => setError(true)}
+    />
+  );
 }

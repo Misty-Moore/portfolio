@@ -126,7 +126,7 @@ export const workExperience = [
     location: "Lusby, Maryland",
     description:
       "Led systems architecture, AI quality assurance, and backlog consolidation efforts for operational software environments by reviewing system requirements, organizing technical priorities, validating functionality, supporting developers and stakeholders, improving workflow clarity, documenting user-facing processes, and helping transform complex business needs into practical software improvements that increased usability, reduced confusion, strengthened delivery planning, and supported more reliable system performance across real-world operational teams.",
-    slug: "HSII™",
+    slug: "hsii",
     logoDomain: "HSII.com",
   },
   {
@@ -136,7 +136,7 @@ export const workExperience = [
     location: "Lusby, Maryland",
     description:
       "Served as a Senior Software Engineer supporting CRM-based system enhancements, technical analysis, dashboard improvements, feature testing, requirements refinement, and stakeholder communication by working closely with developers, business users, and operational teams to identify system gaps, improve reporting visibility, validate software behavior, maintain documentation, support user workflows, and deliver practical improvements that made complex operational processes clearer, more consistent, and easier to manage.",
-    slug: "HSII™",
+    slug: "hsii",
     logoDomain: "HSII.com",
   },
   {
@@ -146,7 +146,7 @@ export const workExperience = [
     location: "Lusby, Maryland",
     description:
       "Worked as a Software Engineer on the development, support, testing, and long-term operation of a CRM-based Redress Management System for DHS TRIP by collaborating directly with developers, writing and refining requirements, building dashboards, testing functionality, troubleshooting issues, creating SOPs and training materials, supporting end users, documenting workflows, and helping ensure the system successfully met real operational needs while improving usability, reporting, consistency, and day-to-day case management performance.",
-    slug: "HSII™",
+    slug: "hsii",
     logoDomain: "HSII.com",
   },
   {
@@ -156,7 +156,7 @@ export const workExperience = [
     location: "Arlington, Virginia",
     description:
       "Supported Transportation Security Administration program operations as a Program Specialist by assisting with documentation, reporting, case-related workflows, stakeholder coordination, process tracking, administrative support, and operational communication, while building strong experience in federal security processes, redress-related program needs, data handling, workflow consistency, and the practical challenges that later informed software requirements, user training, system design, and business analysis work within CRM-based government systems.",
-    slug: "Transportation Security Administration — TSA",
+    slug: "tsa",
     logoDomain: "TSA.com",
   }
 ];
