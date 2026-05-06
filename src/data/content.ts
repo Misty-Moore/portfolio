@@ -86,7 +86,7 @@ export const hero = {
 
 export const funFacts: { text: string; icon: string }[] = [
   // { text: "Conekta", icon: "building" },
-  { text: "B.S. Computer Science, Business Administration and Management, Genera — Western Governors University", icon: "graduation" },
+  { text: "B.S. Business Administration and Management — Western Governors University", icon: "graduation" },
   { text: "M.S. General Psychology— Capella", icon: "graduation" },
   { text: "Prince Frederick, Maryland, United States", icon: "mapPin" },
   { text: "English · Spanish", icon: "globe" },
@@ -174,7 +174,7 @@ export const education=
     college:"Capella University",
   },
   {
-    eduTitle:"Bachelor of Science, Computer Science & Business Administration and Management",
+    eduTitle:"Bachelor of Science, Business Administration and Management",
     period:"2018 – 2023",
     college:"Western Governors University",
   },
