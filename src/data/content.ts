@@ -31,6 +31,11 @@ export const techIconFile: Record<string, string> = {
   "CI/CD": "ci-cd.svg",
   Rust: "rust.svg",
   NestJS: "nestjs.svg",
+  Solana: "Solana.svg",
+  Solidity: "Solidity.svg",
+  Ethereum: "Ethereum.svg",
+  Bitcoin: "Bitcoin.svg",
+  Blockchain: "Blockchain.svg",
   "Next.js": "nextjs.svg",
   "Microsoft Azure": "azure.svg",
 };
@@ -65,6 +70,11 @@ export const techSkillIcons: Record<string, string> = {
   Rust: "rust",
   NestJS: "nestjs",
   "Microsoft Azure": "microsoftazure",
+  Solana: "Solana",
+  Solidity: "Solidity",
+  Ethereum: "Ethereum",
+  Bitcoin: "Bitcoin",
+  Blockchain: "Blockchain",
 };
 
 export const papers = [
@@ -86,7 +96,7 @@ export const hero = {
 
 export const funFacts: { text: string; icon: string }[] = [
   // { text: "Conekta", icon: "building" },
-  { text: "B.S. Business Administration and Management — Western Governors University", icon: "graduation" },
+  { text: "B.S. Computer Science, Business Administration and Management, Genera — Western Governors University", icon: "graduation" },
   { text: "M.S. General Psychology— Capella", icon: "graduation" },
   { text: "Prince Frederick, Maryland, United States", icon: "mapPin" },
   { text: "English · Spanish", icon: "globe" },
@@ -109,6 +119,12 @@ export const techSkills = [
   "Vue",
   "NestJS",
   "PostgreSQL",
+  "Blockchain",
+  "Bitcoin",
+  "Ethereum",
+  "Solana",
+  "Rust",
+  "Solidity",
   "Docker",
   "Microsoft Azure",
   "Git",
@@ -122,7 +138,7 @@ export const workExperience = [
   {
     company: "Human Systems Integration and Infrastructure — HSII™",
     role: "Lead Systems Architect | AI Quality Assurance | Backlog Consolidation",
-    period: "Jul 2025 – Apr 2026",
+    period: "July 2025 – April 2026",
     location: "Lusby, Maryland",
     description:
       "Led systems architecture, AI quality assurance, and backlog consolidation efforts for operational software environments by reviewing system requirements, organizing technical priorities, validating functionality, supporting developers and stakeholders, improving workflow clarity, documenting user-facing processes, and helping transform complex business needs into practical software improvements that increased usability, reduced confusion, strengthened delivery planning, and supported more reliable system performance across real-world operational teams.",
@@ -132,7 +148,7 @@ export const workExperience = [
   {
     company: "Human Systems Integration and Infrastructure — HSII™",
     role: "Senior Software Engineer",
-    period: "Sep 2024 – Jul 2025",
+    period: "September 2024 – July 2025",
     location: "Lusby, Maryland",
     description:
       "Served as a Senior Software Engineer supporting CRM-based system enhancements, technical analysis, dashboard improvements, feature testing, requirements refinement, and stakeholder communication by working closely with developers, business users, and operational teams to identify system gaps, improve reporting visibility, validate software behavior, maintain documentation, support user workflows, and deliver practical improvements that made complex operational processes clearer, more consistent, and easier to manage.",
@@ -142,7 +158,7 @@ export const workExperience = [
   {
     company: "Human Systems Integration and Infrastructure — HSII™",
     role: "Software Engineer",
-    period: "Oct 2018 – Sep 2024",
+    period: "October 2018 – September 2024",
     location: "Lusby, Maryland",
     description:
       "Worked as a Software Engineer on the development, support, testing, and long-term operation of a CRM-based Redress Management System for DHS TRIP by collaborating directly with developers, writing and refining requirements, building dashboards, testing functionality, troubleshooting issues, creating SOPs and training materials, supporting end users, documenting workflows, and helping ensure the system successfully met real operational needs while improving usability, reporting, consistency, and day-to-day case management performance.",
@@ -152,7 +168,7 @@ export const workExperience = [
   {
     company: "Transportation Security Administration — TSA",
     role: "Program Specialist",
-    period: "Feb 2009 – Oct 2018",
+    period: "Jul 2015 – Jun 2018",
     location: "Arlington, Virginia",
     description:
       "Supported Transportation Security Administration program operations as a Program Specialist by assisting with documentation, reporting, case-related workflows, stakeholder coordination, process tracking, administrative support, and operational communication, while building strong experience in federal security processes, redress-related program needs, data handling, workflow consistency, and the practical challenges that later informed software requirements, user training, system design, and business analysis work within CRM-based government systems.",
@@ -174,7 +190,7 @@ export const education=
     college:"Capella University",
   },
   {
-    eduTitle:"Bachelor of Science, Business Administration and Management",
+    eduTitle:"Bachelor of Science, Computer Science & Business Administration and Management",
     period:"2018 – 2023",
     college:"Western Governors University",
   },
